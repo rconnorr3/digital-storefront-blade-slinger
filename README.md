@@ -1,89 +1,120 @@
 # Blade Slinger Landscaping – Website Project
 
-This repository contains the complete front‑end code for the Blade Slinger Landscaping website.  
-The site is built using **HTML5**, **Bootstrap 5**, and a consistent brand theme of white backgrounds with Blade Slinger green.
+This repository contains the full front‑end code for the Blade Slinger Landscaping website, including the Home, Products, About, and Contact pages. The site is built with clean, accessible HTML and Bootstrap 5, designed to be color‑blind friendly, mobile‑responsive, and professional for a landscaping brand.
 
 ---
 
-## Project Overview
+## Project Structure
 
-Blade Slinger Landscaping is a Mississippi-based lawn care and landscaping business founded by **Ryan Connor**.
 
-From the About page:  
-“Mississippi native Ryan Connor founded Blade Slinger in 2021 after nearly a decade refining his skills and expertise in landscaping…”
-
-The website includes:
-- Professional lawn & landscaping services
-- Blade Slinger merchandise
-- Company history & mission
-- Contact & appointment request forms
+Each HTML file represents a different page of the Blade Slinger website.
 
 ---
 
-## Included Pages
+## Page Descriptions
 
-### 1. `index.html` – Home Page
-Provides an introduction to the company and its values.
-
-Excerpt:  
-“We offer industry leading lawn and landscaping services with an extreme attention to detail.”
-
-Sections include:
+### **1. Home Page (`index.html`)**
+The main landing page for Blade Slinger Landscaping.  
+Includes:
 - Welcome message  
-- Why Choose Us  
-- Navigation bar  
-- Footer  
+- Company overview  
+- “Why Choose Us?” section  
+- Navigation to all other pages  
+- Call‑to‑action button linking to the Products page  
+
+Purpose: Provide a strong first impression and guide users deeper into the site.
 
 ---
 
-### 2. `products.html` – Merchandise Page
-Displays all Blade Slinger merchandise using Bootstrap card components.
+### **2. Products Page (`products.html`)**
+Displays all Blade Slinger merchandise using a clean Bootstrap card layout.
 
-Excerpt:  
-“Small/Medium Car Decals w/ Blade Slinger Logo — Available Sizes: 2\" x 2\", 3\" x 3\", 2\" x 8\", 3\" x 10\"…”
-
-Features:
-- 8 product cards  
+Includes:
 - Product images  
-- Pricing and size options  
-- Green bordered Bootstrap cards  
+- Sizes and pricing  
+- Organized grid layout  
+- Responsive design for mobile and desktop  
+
+Purpose: Serve as the storefront for Blade Slinger apparel and decals.
 
 ---
 
-### 3. `about.html` – Company History & Mission
-Tells the story of Blade Slinger and its growth.
+### **3. About Page (`about.html`)**
+Tells the story of Blade Slinger Landscaping and its founder, Ryan Connor.
 
-Excerpt:  
-“What began as a one-man operation has grown into a trusted service provider known for reliability, craftsmanship, and a commitment to helping homeowners…”
+Includes:
+- “How We Started” section  
+- “Our Mission” section  
+- Clean, readable typography  
+- Accessible color palette  
 
-Sections:
-- How We Started  
-- Our Mission  
-
----
-
-### 4. `contact.html` – Contact & Appointment Forms
-Contains two Bootstrap forms:
-
-Excerpt:  
-“Schedule An Appointment” and “Contact Request” forms with fields for name, phone, email, and service type.
-
-Forms include:
-- Appointment scheduling  
-- General contact request  
-- Dropdown service selectors  
-- Message textarea  
+Purpose: Build trust and connection with customers by sharing the company’s history and values.
 
 ---
 
-## 🎨 Branding & Styling
+### **4. Contact Page (`contact.html`)**
+Provides two separate forms for customers to reach out.
 
-Across all pages:
-- White background (`bg-white`)
-- Blade Slinger green text (`text-success`)
-- Bootstrap 5.3.2 CDN
-- Logo displayed at 80px height
-- Consistent navigation bar and footer
+Includes:
+- Appointment scheduling form  
+- General contact form  
+- Clean, accessible form layout  
+- Bootstrap form components  
 
+Purpose: Allow customers to request services or ask questions easily.
+
+---
+
+## Technologies Used
+
+- **HTML5**
+- **Bootstrap 5.3.2**
+- **Responsive design principles**
+- **Accessible color‑blind‑friendly palette**
+
+---
+
+## How to Use This Project
+
+1. Clone or download the repository.
+2. Place all HTML files in the project root.
+3. Place all images inside the `/images` folder.
+4. Open any HTML file in a browser or VS Code Live Server to preview the site.
+
+---
+
+## Deployment
+
+You can deploy this site using:
+- GitHub Pages  
+- Netlify  
+- Vercel  
+- Any static hosting provider  
+
+For GitHub Pages:
+1. Push your project to GitHub.
+2. Go to **Settings → Pages**.
+3. Select the **main branch** as the source.
+4. Save and wait for the site to publish.
+
+---
+
+## Author
+
+**Ryan Connor**  
+Founder & Owner – Blade Slinger Landscaping  
+Mississippi, USA
+
+---
+
+## Contact
+
+For business inquiries or service requests, visit the Contact page or reach out through the Blade Slinger website.
+
+---
+
+## License
+
+This project is for educational and business use by Blade Slinger Landscaping.
 
 
